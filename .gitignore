@@ -1,0 +1,9 @@
+hook.php
+info.php
+
+# Кеш, временные файлы, логи, composer/vendor и т.д.
+*.log
+*.tmp
+*.env
+.DS_Store
+*.ayal

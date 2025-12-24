@@ -1,0 +1,144 @@
+.index-leasing {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding-top: 7.5rem;
+  padding-bottom: 7.625rem;
+}
+.index-leasing__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.8125rem;
+  row-gap: 1.125rem;
+  margin-left: -0.4rem;
+}
+.index-leasing__card {
+  position: relative;
+  overflow: hidden;
+  border: 0.0625rem solid #d9d9d9;
+  border-radius: 0.75rem;
+  padding: 2.3125rem;
+  width: 34.75rem;
+  height: 20.0625rem;
+}
+.index-leasing__card:nth-child(1) .index-leasing__card-name {
+  margin-bottom: 1.4375rem;
+}
+.index-leasing__card:nth-child(1) .index-leasing__card-image {
+  width: 25rem;
+}
+.index-leasing__card:nth-child(2) .index-leasing__card-name {
+  margin-bottom: 0.5625rem;
+}
+.index-leasing__card:nth-child(2) .index-leasing__card-image {
+  width: 24rem;
+}
+.index-leasing__card:nth-child(3) .index-leasing__card-name {
+  margin-bottom: 0.5625rem;
+}
+.index-leasing__card:nth-child(3) .index-leasing__card-image {
+  width: 23rem;
+}
+.index-leasing__card:nth-child(4) .index-leasing__card-name {
+  margin-bottom: 1.4375rem;
+}
+.index-leasing__card:nth-child(4) .index-leasing__card-image {
+  width: 26rem;
+}
+.index-leasing__card-name {
+  font-weight: 500;
+  font-size: 2.25rem;
+  letter-spacing: -0.04em;
+  margin-bottom: 1.4375rem;
+}
+.index-leasing__card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  width: 18.5625rem;
+}
+.index-leasing__card-tag {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  letter-spacing: -0.06em;
+  padding: 0.40625rem 0.625rem;
+  border-radius: 0.75rem;
+  background: rgba(239, 241, 245, 0.6);
+}
+.index-leasing__card-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 23rem;
+  line-height: 0;
+}
+.index-leasing__form {
+  position: relative;
+  padding-top: 4.625rem;
+  padding-left: 3.125rem;
+  padding-right: 2.8125rem;
+  padding-bottom: 6rem;
+  background-color: #383838;
+  border-radius: 0.75rem;
+}
+.index-leasing__form-title {
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: -0.04em;
+  color: #fff;
+  margin-bottom: 1.25rem;
+}
+.index-leasing__form-description {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+}
+.index-leasing__form-form {
+  position: relative;
+  z-index: 3;
+  margin-top: 2.1375rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.index-leasing__form-form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.index-leasing__form-form-inputs input {
+  padding: 1.28125rem 1.25rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: -0.02em;
+  color: #eff1f5;
+  background-color: #242424;
+}
+.index-leasing__form-form .c-check-confirm {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.index-leasing__form-form .c-check-confirm-text {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.5rem;
+  row-gap: 0.125rem;
+  color: #878888;
+}
+.index-leasing__form-form .c-check-confirm-text a {
+  color: #1cb4ff;
+}
+.index-leasing__form-form-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.index-leasing__form-form__button {
+  display: flex;
+}
