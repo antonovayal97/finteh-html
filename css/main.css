@@ -223,6 +223,7 @@ body {
 
 .aialantonov {
   display: block;
+  display: flex;
 }
 
 .header {
