@@ -23,25 +23,43 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   <body>
-    <header class="header">
-      <div class="c-container">
-        <div class="header__block"><a class="header__logo" href="#"><img src="./img/logo.svg" alt="логотип"></a>
-          <nav class="header__menu">
-            <ul>
-              <li class="header__menu-dropdown"><a class="header__menu-dropdown-outer" href="#"><span>Услуги</span>
-                  <svg class="icon dropdown-arrow">
-                    <use href="./img/svg/sprite.svg#dropdown-arrow"></use>
-                  </svg></a>
-                <div class="header__menu-dropdown-inner"><span>span</span></div>
-              </li>
-              <li><a href="#">О компании</a></li>
-              <li><a href="#">Спецпредложения</a></li>
-              <li><a href="#">Клиентам</a></li>
-              <li><a href="#">Контакты</a></li>
-            </ul>
-          </nav>
-          <div class="header__email"><a href="mailto: client@fintech-leasing.ru">client@fintech-leasing.ru</a></div>
-          <div class="header__button"><a class="button" href="#">Заказать звонок </a></div>
+    <header>
+      <div class="header-desktop">
+        <div class="c-container">
+          <div class="header-desktop__block"><a class="header-desktop__logo" href="#"><img src="./img/logo.svg" alt="логотип"></a>
+            <nav class="header-desktop__menu">
+              <ul>
+                <li class="header-desktop__menu-dropdown"><a class="header-desktop__menu-dropdown-outer" href="#"><span>Услуги</span>
+                    <svg class="icon dropdown-arrow">
+                      <use href="./img/svg/sprite.svg#dropdown-arrow"></use>
+                    </svg></a>
+                  <div class="header-desktop__menu-dropdown-inner"><span>span</span></div>
+                </li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Спецпредложения</a></li>
+                <li><a href="#">Клиентам</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </nav>
+            <div class="header-desktop__email"><a href="mailto: client@fintech-leasing.ru">client@fintech-leasing.ru</a></div>
+            <div class="header-desktop__button"><a class="button" href="#">Заказать звонок </a></div>
+          </div>
+        </div>
+      </div>
+      <div class="header-mobile">
+        <div class="c-container">
+          <div class="header-mobile__block"><a class="header-mobile__logo" href="#"><img src="./img/logo.svg" alt="логотип"></a>
+            <div class="header-mobile__button-n-menu">
+              <div class="header-mobile__button"><a class="button" href="#">Заказать звонок </a></div>
+              <div class="header-mobile__burger">
+                <button>
+                  <svg class="icon burger">
+                    <use href="./img/svg/sprite.svg#burger"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -49,7 +67,7 @@
       <div class="index-banner c-container">
         <div class="index-banner__content">
           <div class="index-banner__title">
-            <h1>Лизинговые инструменты с решением <div class="c-accient">за 1 час!</div></h1>
+            <h1>Лизинговые инструменты с решением <div class="c-accient">за&nbsp;1&nbsp;час!</div></h1>
           </div>
           <div class="index-banner__buttons">
             <button class="button button--large">Оставить заявку</button><a class="button button--outline button--large" href="#">Рассчитать график</a>
@@ -203,7 +221,7 @@
             <div class="index-process__leasing-card">
               <div class="index-process__leasing-card-number"><span>03</span></div>
               <div class="index-process__leasing-card-title"><span>Заключите договор</span></div>
-              <div class="index-process__leasing-card-description"><span>Подпишите договор <br>и внесите аванс</span></div>
+              <div class="index-process__leasing-card-description"><span>Подпишите договор внесите аванс</span></div>
             </div>
             <div class="index-process__leasing-card">
               <div class="index-process__leasing-card-number"><span>04</span></div>
@@ -228,7 +246,7 @@
             </div>
             <div class="index-process__nalog-card-def">
               <div class="index-process__nalog-card-def-title">Пример:</div>
-              <div class="index-process__nalog-card-description">При покупке спецтехники стоимостью 10 000 000 ₽, ваша совокупная экономия на налогах составит до 4 000 000 ₽</div>
+              <div class="index-process__nalog-card-def-description">При покупке спецтехники стоимостью 10 000 000 ₽, ваша совокупная экономия на налогах составит до 4 000 000 ₽</div>
             </div>
           </div>
         </div>
@@ -238,7 +256,7 @@
           <h2>Ответы на популярные <div class="c-accient">вопросы</div></h2>
         </div>
         <div class="index-faq__items">
-          <div class="index-faq__item">
+          <div class="index-faq__item index-faq__item--active">
             <div class="index-faq__item-outer">
               <div class="index-faq__item-title"><span>Какие факторы учитываются при рассмотрении сделки?</span></div>
               <div class="index-faq__item-arrow">
@@ -387,7 +405,15 @@
             <div class="footer__desktop-bottom-bottom"><span>Информация, размещенная на сайте носит исключительно информационный характер и не является публичной офертой, определяемой положениями ст. 437 ГК РФ.</span></div>
           </div>
         </div>
-        <div class="footer__mobile"></div>
+        <div class="footer__mobile">
+          <div class="footer__mobile-top">
+            <div class="footer__mobile-logo"><img src="./img/logo.svg" alt="logo"></div><a class="footer__mobile-phone" href="tel: 8 (800) 999 99 00">8 (800) 999 99 00</a>
+          </div>
+          <div class="footer__mobile-menus"></div>
+          <div class="footer__mobile-email"></div>
+          <div class="footer__mobile-copy-n-pr"></div>
+          <div class="footer__mobile-info"><span>Информация, размещенная на сайте носит исключительно информационный характер и не является публичной офертой, определяемой положениями ст. 437 ГК РФ.</span></div>
+        </div>
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
