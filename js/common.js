@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const header = document.querySelector(".header");
+  const headerMobile = document.querySelector(".header-mobile");
 
   const modal = new HystModal({
     linkAttributeName: "data-hystmodal",
@@ -76,12 +76,12 @@ document.addEventListener("DOMContentLoaded", () => {
     swipers.forEach((swiper) => swiper.update());
   });
 
-  if (header) {
-    const button = header.querySelector(".header__burger");
+  if (headerMobile) {
+    const button = headerMobile.querySelector(".header-mobile__burger button");
     let scrollPosition = 0;
 
-    /*button.addEventListener("click", () => {
-      const isActive = header.classList.toggle("header--mobile-menu-active");
+    button.addEventListener("click", () => {
+      const isActive = headerMobile.classList.toggle("header-mobile--active");
 
       if (isActive) {
         // сохраняем позицию
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         window.scrollTo(0, scrollPosition);
       }
-    });*/
+    });
   }
 
   let faqs = document.querySelectorAll(".index-faq__item");

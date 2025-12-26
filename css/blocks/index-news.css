@@ -1,6 +1,11 @@
 .index-news {
   margin-bottom: 6.5625rem;
 }
+@media (max-width: 849.99px) {
+  .index-news {
+    margin-bottom: 3.75rem;
+  }
+}
 .index-news__title {
   margin-bottom: 1.875rem;
   margin-left: -0.3rem;
