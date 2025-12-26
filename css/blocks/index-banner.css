@@ -91,6 +91,7 @@
   background-color: #f4f8ff;
   color: #383838;
   width: 12.8125rem;
+  height: 8.0625rem;
 }
 @media (max-width: 849.99px) {
   .index-banner__card {
@@ -101,13 +102,28 @@
   }
 }
 .index-banner__card-1 {
-  width: 5.4375rem;
+  width: 13rem;
+}
+@media (max-width: 849.99px) {
+  .index-banner__card-1 {
+    width: 5.4375rem;
+  }
 }
 .index-banner__card-2 {
-  width: 6.25rem;
+  width: 13rem;
+}
+@media (max-width: 849.99px) {
+  .index-banner__card-2 {
+    width: 6.25rem;
+  }
 }
 .index-banner__card-3 {
   width: 9.625rem;
+}
+@media (max-width: 849.99px) {
+  .index-banner__card-3 {
+    width: 9.625rem;
+  }
 }
 .index-banner__card--large {
   width: 17.375rem;

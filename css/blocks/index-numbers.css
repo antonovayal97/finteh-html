@@ -56,12 +56,26 @@
   }
 }
 .index-numbers__card-value {
-  line-height: 0;
-  margin-bottom: 0.0625rem;
+  margin-bottom: 1.5rem;
+  font-size: 8rem;
+  line-height: 8rem;
+  margin-top: -1.4rem;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+  margin-left: -0.5rem;
+}
+.index-numbers__card-value .c-accient {
+  margin-left: 0.5rem;
 }
 @media (max-width: 849.99px) {
   .index-numbers__card-value {
-    margin-bottom: -0.1rem;
+    margin-bottom: 0.55rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-top: -0.5rem;
+    letter-spacing: -0.05em;
+    font-weight: 700;
+    margin-left: 0rem;
   }
 }
 .index-numbers__card-title {
@@ -95,9 +109,6 @@
   .index-numbers__card--1 {
     width: calc(50% - 0.375rem);
   }
-  .index-numbers__card--1 .index-numbers__card-value {
-    width: 64%;
-  }
   .index-numbers__card--1 .index-numbers__card-title {
     margin-bottom: 0.3rem;
   }
@@ -111,10 +122,6 @@
 @media (max-width: 849.99px) {
   .index-numbers__card--2 {
     width: calc(50% - 0.375rem);
-  }
-  .index-numbers__card--2 .index-numbers__card-value {
-    width: 76%;
-    margin-bottom: 0.1rem;
   }
   .index-numbers__card--2 .index-numbers__card-title {
     margin-bottom: -0.1rem;
@@ -130,9 +137,6 @@
   .index-numbers__card--3 {
     width: calc(50% - 0.375rem);
   }
-  .index-numbers__card--3 .index-numbers__card-value {
-    width: 73%;
-  }
 }
 .index-numbers__card--4 {
   width: 25rem;
@@ -140,9 +144,6 @@
 @media (max-width: 849.99px) {
   .index-numbers__card--4 {
     width: calc(50% - 0.375rem);
-  }
-  .index-numbers__card--4 .index-numbers__card-value {
-    width: 39%;
   }
   .index-numbers__card--4 .index-numbers__card-title {
     margin-bottom: 0.3rem;

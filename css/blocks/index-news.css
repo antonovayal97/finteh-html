@@ -149,12 +149,29 @@
   }
 }
 .index-news__card-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: -0.02em;
-  opacity: 0.5;
   margin-left: 0.3rem;
+}
+.index-news__card-date span {
+  opacity: 0.5;
+}
+.index-news__card-date .icon {
+  display: none;
+  color: #1cb4ff;
+}
+@media (max-width: 849.99px) {
+  .index-news__card-date .icon {
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: -0.4rem;
+  }
 }
 @media (max-width: 849.99px) {
   .index-news__card-date {
